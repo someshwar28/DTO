@@ -28,6 +28,7 @@ public class EmployeeController {
 	@PostMapping(value = "/addEmployeeData")
 	public EmployeeDto saveEmployeeObject(@RequestBody Employee employee) {
 		
+		System.out.println("object create successfully");
 		return employeeService.saveEmployeeObject(employee);
 		
 	}
