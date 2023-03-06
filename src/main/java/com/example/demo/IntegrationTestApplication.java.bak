@@ -15,8 +15,6 @@ public class IntegrationTestApplication implements CommandLineRunner {
 	@Autowired
 	EmployeeRepository employeeRepository;
 	
-	String name="someshwar";
-	
 	public static void main(String[] args) {
 		SpringApplication.run(IntegrationTestApplication.class, args);
 	}
