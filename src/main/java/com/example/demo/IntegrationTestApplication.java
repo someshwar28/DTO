@@ -27,5 +27,9 @@ public class IntegrationTestApplication implements CommandLineRunner {
 		employeeRepository.save(employee);
 		
 	}
+	//this method is part of new development
+	public void addNewMethod(){
+		
+	}
 
 }
