@@ -16,7 +16,9 @@ public class IntegrationTestApplication implements CommandLineRunner {
 	EmployeeRepository employeeRepository;
 	
 	Map<String,Object>map=new HashMap<>();
-	
+
+	String name="someshwar";
+
 	public static void main(String[] args) {
 		SpringApplication.run(IntegrationTestApplication.class, args);
 	}
