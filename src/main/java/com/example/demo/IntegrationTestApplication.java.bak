@@ -15,8 +15,6 @@ public class IntegrationTestApplication implements CommandLineRunner {
 	@Autowired
 	EmployeeRepository employeeRepository;
 	
-	Map<String,Object>map=new HashMap<>();
-	
 	public static void main(String[] args) {
 		SpringApplication.run(IntegrationTestApplication.class, args);
 	}
